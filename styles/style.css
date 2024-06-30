@@ -2,8 +2,8 @@
 
 .page {
  background-image: var(--background-image);
- object-fit: cover;
- object-position: center;
+ background-size: cover;
+ background-position: center;
  background-attachment: fixed;
  background-color: var(--background-color);
  font-family: "IBM Plex mono", monospace;
@@ -138,7 +138,7 @@
   gap: 10px;
 }
 
-.article-list{
+.article-list {
   display: grid;
   gap: 20px;
 }
@@ -162,7 +162,7 @@
   font-size: 18px;
   line-height: 130%;
   color: var(--section-title);
-  margin-block-end: 20px; 
+  margin-block-end: 20px;
 }
 
 .text {
