@@ -132,6 +132,10 @@
   line-height: 130%;
 }
 
+.title-decor-padding {
+  margin-block-end: 20px;
+}
+
 .article {
   display: flex;
   flex-direction: column;
